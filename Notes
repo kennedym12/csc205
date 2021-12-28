@@ -1,0 +1,98 @@
+Java is object oriented meaning everything interacts by invoking each other's methods
+
+Class - template for object
+public class ClassName(){}
+
+Constructor
+public Classname(type parameter){}
+
+Object - instance of a class that has specific states and behaviors
+ClassName variableName = new constructor();
+
+Method - behavior
+modifier returnType methodName(dataType parameter){}
+object.methodName();
+
+Instance Variable - non-static class variable 
+object.variableName();
+
+Modifiers - modify instance variables
+object.modifierName();
+
+Class Variable - static class variable
+Local Variable - variables within methods
+
+main method - used to test and run code
+public static void main(String args[]){
+    \\code here
+}
+
+Reminders
+- everything is case sensitive
+- class names should be uppercase
+- method names are lower case with uppercase second words
+- file name should match the class name
+- always include main class
+- a source file can only have one public class
+- package statement -> import statements -> code
+- look up packages as needed
+- ^Number, Character, String, Arrays, Date, InputStream, OutputStream
+- use 'this' only within instance methods or constructors
+- use ellipses following the data type for a variable number of parameters of the same type
+
+Polymorphism
+
+Inheritance
+
+Interfaces
+
+Encapsulation
+
+Abstraction
+
+Message Passing
+
+Literal - number used in passing
+
+Public vs Private
+
+Static vs Nonstatic
+
+Package - another name for project
+
+Primitive Data Types
+- byte
+- short
+- int
+- long
+- float
+- double
+- boolean
+- char
+
+While Loop - repeats a statement while a condition is true
+
+For Loop - runs a statement for a number of times
+
+Enhanced For Loop - simpler for loop
+for(declaration : statement){}
+
+Do While Loop - repeats a statements while a condition is true but checks after statement is executed
+
+Break Statement - skips the rest of loop and executes code that follows the loop
+
+Continue Statement - skips the rest of the loop and executes the code at the beginning of that loop
+
+'?:' operator
+exp1 ? exp2 : exp3;
+
+Formatting
+- use % attached to data type to format
+
+Arrays
+dataType[] varName;
+varName = new dataType[];
+
+Command Line Hacks
+- use this to save results to a file (after running code)
+
