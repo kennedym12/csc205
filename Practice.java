@@ -69,9 +69,15 @@ public class Practice{
 
     //count the number of words present
     public static int countWords(String sentence){
+        char[] sen = sentence.toCharArray();
+        int numSpaces=0;
         int numWords=0;
-        for(int i=0;i<sentence.length();i++){
-            //check if space is present
+        for(char c:sen){
+            if(Character.compare(c,' ')==0){
+                numSpaces++;
+            }
+            //count the spaces,check the first and last char,
+            //_sdf_ , _adc, asd_, _, asdf
             //check if there's a letter in front of it
             //check if there a letter behind the last one
         }

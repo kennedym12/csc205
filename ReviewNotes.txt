@@ -83,6 +83,9 @@ Break Statement - skips the rest of loop and executes code that follows the loop
 
 Continue Statement - skips the rest of the loop and executes the code at the beginning of that loop
 
+- use break inside switch, while, or do while loops
+- cast char to int to see its associated ASCII number
+- char are automatically cast when comparing or doing math
 '?:' operator
 exp1 ? exp2 : exp3;
 
