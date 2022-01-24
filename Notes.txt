@@ -1,0 +1,20 @@
+- how do I swap two values?
+
+row major order
+- line up by rows
+- inner loop of for loops is for columns
+
+column major order
+- line up by columns
+- inner loop of for loops is for rows
+
+.compareTo()
+- how does this work?
+
+Selection Sort
+- loops through a list to get the smallest value and puts
+it at the lowest index
+- starts again to put the second smallest at the second 
+smallest index
+
+Bubble Sort

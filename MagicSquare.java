@@ -17,14 +17,7 @@ public class MagicSquare {
         char[] three=row3.toCharArray();
         char[][] matrix={one,two,three};
         System.out.println(matrix);
-        /*if(matrix.length()==m[].length){
-
-        } 
-        int rowsNum=0;
-        while(sc.hasNextLine()){
-            System.out.println(sc.nextLine());
-
-        } */
+        
         sc.close();
     }
 
