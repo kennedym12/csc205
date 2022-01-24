@@ -19,20 +19,17 @@ public class Practice{
         return result;
     }
 
-    public static void main(String args[]){
-        String name = "37073";
-        int[] nums={1,444,8,2,1,1,9,6,2};
-        /*
-        String result=reverseString(name);
+    /*
+      String result=reverseString(name);
         System.out.printf("%s is %s reversed",result,name);
-            */
+            
         //System.out.print(countVowels(name));
 
         //System.out.print(checkIfPalindrome(name));
 
         System.out.println(getMaxNum(nums));
 
-    }
+    } */
 
     //takes a string and counts its vowels
     public static int countVowels(String str){
@@ -68,7 +65,7 @@ public class Practice{
     }
 
     //count the number of words present
-    public static int countWords(String sentence){
+    /* public static int countWords(String sentence){
         char[] sen = sentence.toCharArray();
         int numSpaces=0;
         int numWords=0;
@@ -82,7 +79,7 @@ public class Practice{
             //check if there a letter behind the last one
         }
         return numWords;
-    }
+    } */
 
     //return the largest number in an array of integers
     public static int getMaxNum(int[] nums){

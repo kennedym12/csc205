@@ -52,4 +52,10 @@ public class Clock {
             hrs=0;
         }
     }
+
+    public void isValid(){
+        while(hrs>24){
+            System.out.println("please enter a valid number for hours");
+        }
+    }
 }
