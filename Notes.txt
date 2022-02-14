@@ -2,10 +2,15 @@
 
 row major order
 - line up by rows
+- information is organized by row first
+- read from left to right
+- outer loop for rows
 - inner loop of for loops is for columns
 
 column major order
-- line up by columns
+- information organized by columns
+- read from top to bottom
+- outer loop for columns
 - inner loop of for loops is for rows
 
 .compareTo()
@@ -17,4 +22,29 @@ it at the lowest index
 - starts again to put the second smallest at the second 
 smallest index
 
-Bubble Sort
+Bubble Sort - 
+Linear Search - 
+Binary Search - 
+why is binary search looked down on?
+
+Random Numbers in Java
+- how can i generate random numbers in the range of [1,10]
+
+Array vs ArrayList
+- arraylist is fexible
+- static in memory
+- doubles capacity when it meets its predefined size
+- add vs set methods for an arrayList?
+- how do i remove something? what does that do to its index
+- insert/delete from anywhere in the arraylist
+
+BitSet
+- an array of booleans
+- behaves like an arraylist
+- 
+
+StringBuffer
+- java string on steroids
+- behaves like an arraylist
+- modify letters at indiv. locations
+- insert anywhere easily
