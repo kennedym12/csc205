@@ -1,0 +1,10 @@
+a) the size is the amount of elements in it while the capacity is the amount of
+elements it's capable of containing
+
+b) the default capacity is 10 elements but the max is defined by space in memory 
+
+c) arrayList size is flexible, you can easily insert elements
+
+d) arrays work correctly with primitives (no object class needed), built-in syntax is simpler to use
+
+
